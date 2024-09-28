@@ -11,3 +11,105 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 22px;
+}
+
+.searchBar input {
+  width: 400px;
+  padding: 9px;
+  font-size: 22px;
+  border: none;
+  background-color: #e7e7e7;
+  border-radius: 6px;
+}
+
+.searchBar button {
+  width: 90px;
+  background-color: #ff6600; /* Orange with a hint of red */
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  justify-content: center;
+  width: 90%;
+  /* background-color: blueviolet; */
+  margin: auto;
+  margin-top: 44px;
+}
+
+.meals img {
+  width: 100%;
+  height: 270px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  object-fit: cover; /* Ensure images fit the container */
+}
+
+.mealImg {
+  width: 280px;
+  height: 380px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  border-radius: 11px;
+  overflow: hidden; /* Clip overflowing content for images */
+}
+
+.mealImg p {
+  font-weight: 600;
+  margin-bottom: 10px; /* Add a small bottom margin */
+}
+
+.mealImg button {
+  width: 120px;
+  background-color: #ff6600; /* Orange with a hint of red */
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 21px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.mealInfo img {
+  width: 400px;
+  height: 400px;
+  border-radius: 11px;
+}
+
+.mealInfo {
+  /* width: 90%; */
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5; /* Lighter background for better contrast */
+  padding: 32px;
+}
+
+.mealInfo button {
+  border: none;
+  padding: 9px;
+  border-radius: 6px;
+  font-size: 19px;
+  background-color: #ff6600; /* Orange with a hint of red */
+  color: #fff;
+}
+
+.mealInfo .info {
+  margin-top: -112px;
+}
